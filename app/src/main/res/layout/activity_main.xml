@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.yuan.testview.widget.TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text="hetao"
+        app:textColor="@color/colorAccent"
+        app:textSize="14sp"
+        android:padding="8dp"
+        android:background="#00ff00"
+        tools:ignore="MissingConstraints" />
+    <com.yuan.testview.widget.QQStepView
+        android:id="@+id/step_view"
+        android:layout_marginTop="20dp"
+        app:outerColor="@color/colorAccent"
+        app:innerColor="@color/colorPrimary"
+        app:borderWidth="6dp"
+        app:stepTextColor="@color/colorAccent"
+        app:stepTextSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
